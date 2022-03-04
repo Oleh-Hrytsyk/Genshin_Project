@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Bellota+Text:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+.main-font {
+    font-family: 'Bellota Text', cursive;
+}
+
+.main-background {
+    width: 100%;
+    height: 100%;
+    background-image: url('../img/main_background.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.main-background-opacity {
+    width: 100%;
+    height: 100%;
+    background: rgba(137, 137, 137, 0.67);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-container {
+    width: 1100px;
+    height: 650px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-row {
+    width: 95%;
+    height: 49%;
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.menu-item {
+    flex: 1;
+    margin: 0 1.1em 0 1.1em;
+    height: 92%;
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.menu-characters {
+    background-image: url('../img/menu_galary_background.png');
+}
+
+.menu-weapons {
+    background-image: url('../img/menu_weapon_background.png');
+}
+
+.menu-team-sets {
+    background-image: url('../img/menu_team_sets_background.png');
+}
+
+.menu-damage-calculator {
+    background-image: url('../img/menu_damage_calc_background.png');
+}
+
+.menu-weapon-calculator {
+    background-image: url('../img/menu_weapon_calc_background.png');
+}
+
+.menu-upgrade-calculator {
+    background-image: url('../img/menu_upgrade_calc_background.png');
+}
+
+.menu-item-opacity {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(83, 83, 83, 0.62);
+    border-radius: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-item-opacity span {
+    color: rgba(255, 255, 255, 1);
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 55px;
+    text-align: center;
+}
